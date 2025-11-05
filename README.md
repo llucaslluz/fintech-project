@@ -119,12 +119,3 @@ Uso permitido somente para fins educacionais.
 ✍️ Desenvolvido por Lucas Luz
 
 ---
-
-### ✅ Próximo passo agora:
-📌 Criar o arquivo `backend/README.md` com esse conteúdo  
-📌 Fazer commit e push:
-
-```bash
-git add backend/README.md
-git commit -m "README backend finalizado"
-git push
