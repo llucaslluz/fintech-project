@@ -22,7 +22,6 @@ Projeto desenvolvido para a disciplina de **Java + Spring Boot + Oracle**
 - `Conta`
 - `Despesa`
 
-*(mínimo exigido: 3 entidades – OK ✅)*
 
 ---
 
@@ -68,18 +67,21 @@ GET    /usuarios
 GET    /usuarios/{id}
 PUT    /usuarios/{id}
 DELETE /usuarios/{id}
+
 🏦 Contas por usuário
 POST   /usuarios/{usuarioId}/contas
 GET    /usuarios/{usuarioId}/contas
 GET    /contas/{id}
 PUT    /contas/{id}
 DELETE /contas/{id}
+
 💸 Despesas por usuário
 POST   /usuarios/{usuarioId}/despesas
 GET    /usuarios/{usuarioId}/despesas
 GET    /despesas/{id}
 PUT    /despesas/{id}
 DELETE /despesas/{id}
+
 ✅ Códigos de status da API
 Operação	Método	Status
 Criar recurso	POST	201 Created
