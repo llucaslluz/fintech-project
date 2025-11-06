@@ -47,6 +47,8 @@ spring.jpa.hibernate.ddl-auto=none
 spring.jpa.show-sql=true
 ⚠️ Obs.: O ddl-auto=none garante que o banco não será recriado.
 As tabelas devem ser criadas antes via script SQL (pasta /db).
+###
+```
 
 2️⃣ Execute o projeto
 mvn spring-boot:run
@@ -326,3 +328,16 @@ async function listarUsuarios() {
   if (!res.ok) throw new Error('Falha ao listar usuários');
   return res.json();
 }
+
+## Frontend (React)
+
+Requisitos: Node 18+
+
+```bash
+cd frontend
+npm install
+npm run dev
+API base: http://localhost:8080 (ou configurar .env com VITE_API_URL)
+
+Rotas: /login, /, /usuarios, /contas, /despesas
+```
